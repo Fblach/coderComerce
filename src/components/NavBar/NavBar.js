@@ -6,13 +6,14 @@ import Image from 'react-bootstrap/Image'
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 import FormControl from 'react-bootstrap/FormControl'
-import logo from '../ccLogo.png';
+import logo from '../images/ccLogo.png';
 
 function NavBar() {
+
     return (
 
         <Navbar bg="dark" variant="dark" expand="lg">
-            <Image src={logo} width="30" height="30" className="align-top" alt="" roundedCircle></Image>
+            <Image src={logo} width="30" height="30" mr="5" alt="" roundedCircle></Image>
             <Navbar.Brand href="#home">Coffee Commerce</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
