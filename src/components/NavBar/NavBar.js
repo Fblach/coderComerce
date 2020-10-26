@@ -7,13 +7,14 @@ import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 import FormControl from 'react-bootstrap/FormControl'
 import logo from '../images/ccLogo.png';
+import CartIcon from "../CartIcon/CartIcon";
 
 function NavBar() {
 
     return (
 
         <Navbar bg="dark" variant="dark" expand="lg">
-            <Image src={logo} width="30" height="30" mr="5" alt="" roundedCircle></Image>
+            <Image src={logo} width="30" height="30"  alt="" className="mr-2"roundedCircle/>
             <Navbar.Brand href="#home">Coffee Commerce</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -26,6 +27,9 @@ function NavBar() {
                     </NavDropdown>
                 </Nav>
             </Navbar.Collapse>
+            <a href="#home">
+               <CartIcon/>
+            </a>    
             <Form inline>
                 <FormControl type="text" placeholder="Search" className="mr-sm-2" />
                 <Button variant="light">Search</Button>
