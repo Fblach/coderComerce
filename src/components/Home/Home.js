@@ -5,7 +5,7 @@ import ItemListContainer from '../ItemListCointainer/ItemListContainer'
 function Home(){
     return(
         <Jumbotron>
-            <ItemListContainer titulo="Props"/>
+            <ItemListContainer titulo="Renderizado del titulo"/>
         </Jumbotron>
     )}
 
