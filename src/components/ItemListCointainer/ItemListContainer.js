@@ -4,7 +4,7 @@ import {Container} from 'react-bootstrap';
 function ItemListContainer(props) {
     return (
         <Container>
-            <h1>{props.titulo} </h1>
+            <h1 style={{textAlign: "center"}}>{props.titulo} </h1>
         </Container>
     )
 }
