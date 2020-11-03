@@ -18,8 +18,8 @@ function Home(){
     }
     return(
         <Container>
-            <ItemListContainer titulo="Renderizado del titulo"/>
-            <ItemCount onAdd={handleAdd} stock={stock} inicial={1}/>
+            <ItemListContainer titulo="Items"/>
+            {/* <ItemCount onAdd={handleAdd} stock={stock} inicial={1}/> */}
         </Container>
     )}
 

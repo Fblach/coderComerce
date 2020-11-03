@@ -14,7 +14,7 @@ function NavBar() {
     return (
 
         <Navbar bg="dark" variant="dark" expand="lg">
-            <Image src={logo} width="30" height="30"  alt="" className="mr-2"roundedCircle/>
+            <Image src={logo} width="30" height="30"  alt="" className="mr-2" roundedCircle/>
             <Navbar.Brand href="#home">Coffee Commerce</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
