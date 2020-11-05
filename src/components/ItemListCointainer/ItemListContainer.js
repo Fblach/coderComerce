@@ -3,14 +3,14 @@ import {Container} from 'react-bootstrap';
 import ItemList from './ItemList/ItemList';
 
 function ItemListContainer(props) {
-    const getItems = new Promise((res, rej) => {
-        setTimeout(() => { res(items);}, 2000)
-    });
-    let [items, setItems] = useState([])
+    // const getItems = new Promise((res, rej) => {
+    //     setTimeout(() => { res(items);}, 2000)
+    // });
+    // let [items, setItems] = useState([])
 
-    useEffect(
-        getItems.then(result => { setItems(result) })
-        , [])
+    // useEffect(
+    //     getItems.then(result => { setItems(result) })
+    //     , [])
 
     return (
         <Container>
